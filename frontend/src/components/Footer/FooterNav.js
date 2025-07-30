@@ -2,8 +2,9 @@ import React from 'react';
 import { FaCcVisa } from "react-icons/fa";
 import { SiPaypal } from "react-icons/si";
 import { FaCcMastercard } from "react-icons/fa";
-import { FaSquareXTwitter } from "react-icons/fa6";
+// import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
 import { FaPhone } from "react-icons/fa6";
 import { useNavigate } from 'react-router-dom';
@@ -18,8 +19,8 @@ const FooterNav = () => {
 
     <div className="lg:w-1/4 py-12 w-full">
       <ul className="flex justify-center">
-        <a href="https://x.com/us0fx"><li><FaSquareXTwitter className="text-black w-10 h-10 mx-3 dark:text-white" /></li></a>
-        <a href="https://instagram.com/u.s0f"><li><FaInstagram className="text-black w-10 h-10 mx-3 dark:text-white" /></li></a>
+        <a href="https://instagram.com/youssefry01"><li><FaInstagram className="text-black w-10 h-10 mx-3 dark:text-white" /></li></a>
+        <a href="https://www.linkedin.com/in/youssefry/"><li><FaLinkedin className="text-black w-10 h-10 mx-3 dark:text-white" /></li></a>
       </ul>
     </div>
 
@@ -28,13 +29,13 @@ const FooterNav = () => {
           <li className="text-black font-JosefinSans text-lg font-normal mb-2 dark:text-white">Contact Us</li>
 
           <li className='flex flex-row justify-center items-center text-gray-400 font-JosefinSans font-normal mb-2'>
-          <MdOutlineEmail className='text-black w-5 h-5 mr-2 dark:text-white'/>
-          help@Ustore
+            <MdOutlineEmail className='text-black w-5 h-5 mr-2 dark:text-white'/>
+            youssefry01@gmail.com
           </li>
 
-          <li className='flex flex-row justify-center items-center text-gray-400 font-JosefinSans font-normal mb-2'>
-          <FaPhone className='text-black w-4 h-4 mr-1 dark:text-white'/>
-          +205555555555
+          <li className='flex flex-row justify-start items-center text-gray-400 font-JosefinSans font-normal mb-2'>
+            <FaPhone className='text-black w-4 h-4 mr-1 dark:text-white'/>
+            +20 102 699 4847
           </li> 
 
           <li className={childStyle}>Contact Support</li>

@@ -11,7 +11,8 @@ const Header = () => {
 
       <HiMenu className="lg:hidden"/>
 
-      <div className=""><Link to='/'><img className="w-18 h-16 lg:w-20 lg:h-18 mr-6" src={storeLogo} alt='logo'/></Link></div>
+      {/* <div className=""><Link to='/'><img className="w-18 h-16 lg:w-20 lg:h-18 mr-6" src={storeLogo} alt='logo'/></Link></div> */}
+      <div className=""><Link to='/'><img className="w-16 h-16 lg:w-18 lg:h-18 mr-6" src={storeLogo} alt='logo'/></Link></div>
 
       <ProductsNav />
 

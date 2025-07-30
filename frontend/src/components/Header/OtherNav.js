@@ -32,7 +32,7 @@ const OtherNav = () => {
 
       <div className='flex relative group mr-6' onClick={() => setDropdownVisible((prev) => !prev)} ref={dropdownRef}>
 
-        <div className='flex items-center p-4 h-[30px] gap-2 text-[13px] leading-[20px] font-medium appearance-none rounded-[15px] border border-solid z-0 border-[rgb(232,_237,_235)] hover:cursor-pointer focus:cursor-pointer'>
+        <div className='flex items-center p-4 lg:w-[95.5px] w-[90px] text-[11px] h-[30px] gap-2 lg:text-[13px] leading-[20px] lg:font-medium appearance-none rounded-[15px] border border-solid z-0 border-[rgb(232,_237,_235)] hover:cursor-pointer focus:cursor-pointer'>
         {isLoading ? '...' : user ? (<p>{user.username}</p>) : <Link to='login' onClick={() => setDropdownVisible(false)}>Sign in</Link>}
           <GoTriangleDown />
         </div>
