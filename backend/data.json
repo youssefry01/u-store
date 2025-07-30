@@ -1,0 +1,72 @@
+[
+{"name": "steam", "title": "STEAM", "description": "Steam is a video game digital distribution service and storefront managed by Valve. It was launched as a software client in September 2003 to provide game updates automatically for Valve's games and expanded to distributing third-party titles in late 2005. Steam offers various features, like game server matchmaking with Valve Anti-Cheat measures, social networking, and game streaming services."},
+
+{"name": "valorant", "title": "VALORANT", "description": "VALORANT is a F2P (free to play) 5v5 shooter game where two teams plant or defuse the Spike in a one-life-per-round, first to 13 series. Annihilating the opposing team will win you the round as well. More than just guns & bullets, VALORANT lets you choose an Agent armed with unique abilities that enhances your gunplay experience."},
+
+{"name": "league-of-legends", "title": "League of Legends", "description": "League of Legends is a team-based strategy game where two teams of five powerful champions face off to destroy the other’s base. Choose from over 140 champions to make epic plays, secure kills, and take down towers as you battle your way to victory."},
+
+{"name": "xbox", "title": "XBOX GamePass", "description": "Xbox is a video gaming brand that consists of five home video game consoles, as well as applications (games), streaming service Xbox Cloud Gaming, and online services such as the Xbox network and Xbox Game Pass. The brand is produced by Microsoft Gaming, a division of Microsoft."},
+
+{"name": "roblox", "title": "ROBLOX", "description": "Roblox is an online game platform and game creation system developed by Roblox Corporation that allows users to program and play games created by themselves or other users."},
+
+{"name": "apex", "title": "APEX LEGENDS", "description": "Apex Legends is a free-to-play battle royale-hero shooter game developed by Respawn Entertainment and published by Electronic Arts. The game supports cross-platform play, excluding the aforementioned mobile platforms."},
+
+{"name": "googleplay", "title": "GooglePlay", "description": "Google Play, also known as the Google Play Store or Play Store and formerly known as Android Market, is a digital distribution service operated and it's developed by Google. It serves as the official app store for certified devices running on the Android operating system and its derivatives, as well as ChromeOS, allowing users to browse and download applications developed with the Android software development kit and published through Google."},
+
+{"name": "playstation", "title": "Playstation", "description": "PlayStation is a video gaming brand that consists of five home video game consoles, two handhelds, a media center, and a smartphone, as well as an online service and multiple magazines. The brand is produced by Sony Interactive Entertainment, a division of Sony."},
+
+
+
+
+{"name": "steam5", "category": "steam", "amount": 5},
+{"name": "steam10", "category": "steam", "amount": 10},
+{"name": "steam20", "category": "steam", "amount": 20},
+{"name": "steam50", "category": "steam", "amount": 50},
+{"name": "steam100", "category": "steam", "amount": 100},
+
+
+{"name": "valorant475", "category": "valorant", "amount": 475},
+{"name": "valorant1000", "category": "valorant", "amount": 1000},
+{"name": "valorant2050", "category": "valorant", "amount": 2050},
+{"name": "valorant3650", "category": "valorant", "amount": 3650},
+{"name": "valorant5350", "category": "valorant", "amount": 5350},
+{"name": "valorant11000", "category": "valorant", "amount": 11000},
+
+{"name": "lol575", "category": "league-of-legends", "amount": 575},
+{"name": "lol1380", "category": "league-of-legends", "amount": 1380},
+{"name": "lol2800", "category": "league-of-legends", "amount": 2800},
+{"name": "lol4500", "category": "league-of-legends", "amount": 4500},
+{"name": "lol6500", "category": "league-of-legends", "amount": 6500},
+{"name": "lol13500", "category": "league-of-legends", "amount": 13500},
+
+
+{"name": "xbox1", "category": "xbox", "amount": 1},
+{"name": "xbox2", "category": "xbox", "amount": 2},
+{"name": "xbox3", "category": "xbox", "amount": 3},
+
+
+{"name": "roblox800", "category": "roblox", "amount": 800},
+{"name": "roblox2000", "category": "roblox", "amount": 2000},
+
+
+{"name": "apex1000", "category": "apex", "amount": 1000},
+{"name": "apex2150", "category": "apex", "amount": 2150},
+{"name": "apex4350", "category": "apex", "amount": 4350},
+{"name": "apex6700", "category": "apex", "amount": 6700},
+{"name": "apex11500", "category": "apex", "amount": 11500},
+
+
+{"name": "gp5", "category": "googleplay", "amount": 5},
+{"name": "gp10", "category": "googleplay", "amount": 10},
+{"name": "gp15", "category": "googleplay", "amount": 15},
+{"name": "gp25", "category": "googleplay", "amount": 25},
+{"name": "gp50", "category": "googleplay", "amount": 50},
+{"name": "gp100", "category": "googleplay", "amount": 100},
+
+
+{"name": "ps10", "category": "playstation", "amount": 10},
+{"name": "ps25", "category": "playstation", "amount": 25},
+{"name": "ps50", "category": "playstation", "amount": 50},
+{"name": "ps75", "category": "playstation", "amount": 75},
+{"name": "ps100", "category": "playstation", "amount": 100}
+]
