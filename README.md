@@ -2,6 +2,8 @@
 
 **U-Store** is a modern e-commerce platform that allows users to purchase digital codes — such as game activations, gift cards, and other virtual vouchers — instantly and securely.
 
+> ⚠️ **Disclaimer:** This website is a demo project. Do **not** attempt to purchase anything — no real transactions or deliveries will occur.
+
 ## 💡 About the Project
 
 With the rapid growth of digital gaming and subscription-based services, users increasingly prefer fast, secure, and contactless methods to buy and redeem content. U-Store fills that gap by providing a seamless way to browse and purchase digital codes online.

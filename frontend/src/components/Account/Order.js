@@ -4,6 +4,7 @@ import { format } from "date-fns";
 
 
 const Order = ({ orders, order }) => {
+    // eslint-disable-next-line
     const { data: product, isLoading, isSuccess } = useGetProductByIdQuery(order.productId, 'product', { pollingInterval: 15000, refetchOnFocus: true, refetchOnMountOrArgChange: true });
 
     let prodIcon;
