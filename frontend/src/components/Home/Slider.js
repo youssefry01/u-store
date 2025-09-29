@@ -5,10 +5,10 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import '../../index.css';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
-import valorant from '../../assets/valorant/Bundle.jfif';
-import apex from '../../assets/apex/ApexCoins.jpg';
-import lol from '../../assets/league-of-legends/lolCover.png';
-import steam from '../../assets/steam/Steam2.png';
+import netflix from '../../assets/netflix/cover.png';
+import steam from '../../assets/steam/cover.png';
+import amazon from '../../assets/amazon/cover.png';
+import apple from '../../assets/apple/cover.png';
 import { Link } from 'react-router-dom';
 import "../../css/custom-swiper-bullet.css";
 
@@ -32,19 +32,19 @@ export default function App() {
         className="mySwiper rounded-2xl"
       >
         <SwiperSlide>
-          <Link to='/valorant'> <img src={valorant} alt='valorant' className=''/> </Link>
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <Link to='/apex'> <img src={apex} alt='apex' className=''/> </Link>
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <Link to='/league-of-legends'> <img src={lol} alt='league of legends' className=''/> </Link>
+          <Link to='/netflix'> <img src={netflix} alt='netflix' className=''/> </Link>
         </SwiperSlide>
 
         <SwiperSlide>
           <Link to='/steam'> <img src={steam} alt='steam' className=''/> </Link>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <Link to='/amazon'> <img src={amazon} alt='amazon' className=''/> </Link>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <Link to='/apple'> <img src={apple} alt='apple' className=''/> </Link>
         </SwiperSlide>
 
       </Swiper>

@@ -32,7 +32,8 @@ const Product = ({ category, products, product, categoryName }) => {
             </div>
 
             <div className='flex w-full justify-center items-center'>
-                <img src={ prodIcon } className={`size-10 ${categoryName === 'valorant' ? 'bg-black rounded-full dark:bg-none ' : categoryName === 'playstation' ? '' : ''}`} alt={product.name} />
+                <img src={ prodIcon } className={`size-10 ${categoryName === 'amazon' ? 'rounded-full dark:bg-white' : categoryName === 'apple' ? 'rounded-full' : categoryName === 'playstation' ? '' : ''}`} alt={product.name} />
+                {/* <img src={ prodIcon } className={`size-10 ${categoryName === 'valorant' ? 'bg-black rounded-full dark:bg-none ' : categoryName === 'playstation' ? '' : ''}`} alt={product.name} /> */}
             </div>
 
         </div>
