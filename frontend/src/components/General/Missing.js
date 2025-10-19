@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 
 const Missing = ({ msg , msg2 }) => {
   return (
-      <div className="grid h-screen place-content-center bg-[#f7f7f8] px-4 dark:bg-gray-900">
+      <div className="grid h-screen px-4 py-10 lg:py-0 overflow-clip place-content-center bg-[#f7f7f8] dark:bg-gray-900">
         <div className="text-center">
-          <h1 className="text-9xl font-black text-gray-200 dark:text-gray-700">{msg}</h1>
+          <h1 className="text-4xl lg:text-9xl font-black text-gray-200 dark:text-gray-700">{msg}</h1>
 
           <p className="text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl dark:text-white">Uh-oh!</p>
 
