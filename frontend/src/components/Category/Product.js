@@ -20,7 +20,7 @@ const Product = ({ category, products, product, categoryName }) => {
   };
 
   return (
-    <div className={`flex flex-wrap m-4 rounded-2xl select-none transition-all duration-300 
+    <div className={`flex flex-wrap m-4 w-28 lg:w-36 lg:h-44 max-w-36 max-h-48 rounded-2xl select-none transition-all duration-300 
         ${selectedPrice === product.price ? 'border-blue-500 bg-blue-100 dark:border-blue-500  dark:bg-blue-900'
         : product.stock === 0 ? 'opacity-60 pointer-events-none' : 'cursor-pointer border-black border-opacity-10 dark:border-white dark:border-opacity-10'
       }`} onClick={product.codes.length === 0 ? undefined : () => handleSelectPrice(product.price)}>
@@ -33,7 +33,6 @@ const Product = ({ category, products, product, categoryName }) => {
 
             <div className='flex w-full justify-center items-center'>
                 <img src={ prodIcon } className={`size-10 ${categoryName === 'amazon' ? 'rounded-full dark:bg-white' : categoryName === 'apple' ? 'rounded-full' : categoryName === 'playstation' ? '' : ''}`} alt={product.name} />
-                {/* <img src={ prodIcon } className={`size-10 ${categoryName === 'valorant' ? 'bg-black rounded-full dark:bg-none ' : categoryName === 'playstation' ? '' : ''}`} alt={product.name} /> */}
             </div>
 
         </div>

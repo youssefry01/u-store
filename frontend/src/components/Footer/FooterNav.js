@@ -35,7 +35,7 @@ const FooterNav = () => {
 
           <li className='flex flex-row justify-start items-center text-gray-400 font-JosefinSans font-normal mb-2'>
             <FaPhone className='text-black w-4 h-4 mr-1 dark:text-white'/>
-            +20 102 699 4847
+            +20 123 456 7890
           </li> 
 
           <li className={childStyle}>Contact Support</li>

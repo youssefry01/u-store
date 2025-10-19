@@ -18,7 +18,7 @@ const PurchaseFeed = ({ category, products, categoryName, setIframeUrl }) => {
   const canPay = user && selectedPrice!==0 && selectedPayment!==0;
 
   return (
-    <div className='flex flex-wrap p-10 my-4 mr-10  w-full lg:w-2/3 bg-white rounded-xl dark:bg-[#18181b] drop-shadow-lg'>
+    <div className='flex flex-wrap p-4 lg:p-10 my-4 lg:mx-4 w-full lg:w-2/3 bg-white lg:rounded-xl dark:bg-[#18181b] lg:drop-shadow-lg'>
           
       <AmountField category={category} products={products} categoryName={categoryName}/>
 

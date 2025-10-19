@@ -26,7 +26,7 @@ const OtherNav = () => {
   }, []);
 
   return (
-    <div className='flex items-center'>
+    <div className='flex items-center ml-auto lg:ml-0'>
 
       <Search />
 

@@ -32,7 +32,7 @@ const PurchaseButton = ({ user, product, code, canPay, setIframeUrl }) => {
   return (
     <div className='flex flex-col justify-center items-center w-full mt-6 '>
 
-     <button onClick={initiatePayment} className={`bg-violet-900 text-center text-xl text-white rounded-2xl h-12 w-1/4 font-semibold select-none ${loading || !canPay ? 'opacity-50 cursor-not-allowed' : 'opacity-100 pointer-events-auto'}`} disabled={loading || !canPay} >
+     <button onClick={initiatePayment} className={`bg-violet-900 text-center text-base lg:text-xl text-white rounded-2xl h-12 lg:w-1/4 w-full font-semibold select-none ${loading || !canPay ? 'opacity-50 cursor-not-allowed' : 'opacity-100 pointer-events-auto'}`} disabled={loading || !canPay} >
      {loading ? "Processing..." : "Complete Purchase"}
      </button>
     
